@@ -1,0 +1,4 @@
+SSL Redirect Bug
+---
+
+Going to `http://rails-ssl-bug.herokuapp.com/foo/1` ends up redirecting to `https://rails-ssl-bug.herokuapp.com/foo/preview/1` instead of `https://rails-ssl-bug.herokuapp.com/foo/1`
